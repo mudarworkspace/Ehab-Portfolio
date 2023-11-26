@@ -1,0 +1,70 @@
+.navbar {
+  color: #343a40;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .brand {
+  font-weight: bold;
+  font-size: 18px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.navbar .items {
+  padding: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 30px;
+}
+
+.navbar .items .item {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.navbar .items .item::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 0%;
+  height: 3px;
+  background-color: #ffbd39;
+  -webkit-transition: width 0.3s ease;
+  transition: width 0.3s ease;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.navbar .items .item:hover::before {
+  width: 100%;
+}
+
+.navbar .items .visited::before {
+  width: 100%;
+}
+
+.dark .navbar {
+  color: #b5b5b5;
+}
+/*# sourceMappingURL=NavBar.css.map */

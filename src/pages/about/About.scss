@@ -1,0 +1,129 @@
+@import "../../assets/styles/vars.scss";
+.about {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  .image {
+    flex: 2;
+    img {
+      width: 100%;
+    }
+  }
+  .information {
+    margin: 100px 0 0 0px;
+    flex: 2;
+    .title {
+      margin-left: 20px;
+      h2 {
+        top: 0px;
+        left: 0;
+        font-size: 50px;
+        font-weight: 900;
+        color: $yellow-color;
+      }
+      p {
+        color: $light-font-color;
+      }
+    }
+
+    ul {
+      list-style-type: none;
+      margin-top: 20px;
+      li {
+        display: flex;
+        margin: 20px;
+        .left {
+          flex: 1;
+          font-weight: bold;
+          color: $light-font-color;
+        }
+        .right {
+          flex: 4;
+          color: black;
+        }
+      }
+    }
+  }
+}
+.dark {
+  .about {
+    .information {
+      .title {
+        p {
+          color: $dark-font-color;
+        }
+      }
+
+      ul {
+        li {
+          .left {
+            color: $dark-font-color;
+          }
+          .right {
+            color: $dark-font-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $laptop-bp) {
+  .about {
+    flex-direction: column;
+
+    .image {
+      display: block;
+      text-align: center;
+    }
+
+    .information {
+      margin: 0;
+
+      .title {
+        margin-left: 0;
+        text-align: center;
+
+        h2 {
+          font-size: 40px;
+        }
+      }
+
+      ul {
+        li {
+          flex-direction: column;
+          align-items: center;
+          .left {
+            margin-bottom: 10px;
+          }
+          .right {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-bp) {
+  /* Add additional responsive styles for tablets if needed */
+  .about {
+    .image {
+      img {
+        width: 70%;
+        height: 70%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $screen-bp) {
+  /* Add additional responsive styles for tablets if needed */
+  .about {
+    .information {
+      margin: 0;
+    }
+  }
+}

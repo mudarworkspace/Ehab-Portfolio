@@ -1,0 +1,86 @@
+@import "../../assets/styles/vars.scss";
+.home {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+
+  .bio {
+    margin-top: 20px;
+    .title {
+      color: $yellow-color;
+      font-size: 40px;
+      font-weight: bold;
+      line-height: 1.5;
+      .hello {
+        color: $light-font-color;
+      }
+    }
+    .desc {
+      font-size: 30px;
+      color: $light-font-color;
+    }
+  }
+
+  .image {
+    text-align: center;
+    img {
+      height: 100vh;
+      width: auto;
+    }
+  }
+}
+
+.dark {
+  .home {
+    .bio {
+      .title {
+        .hello {
+          color: $dark-font-color;
+        }
+      }
+      .desc {
+        color: $dark-font-color;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $laptop-bp) {
+  .home {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    .bio {
+      margin-bottom: 20px;
+      .title {
+        font-size: 30px;
+      }
+      .desc {
+        font-size: 24px;
+      }
+    }
+
+    .image {
+      display: block;
+      text-align: center;
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-bp) {
+  .home {
+    .bio {
+      .title {
+        font-size: 25px;
+      }
+      .desc {
+        font-size: 20px;
+      }
+    }
+  }
+}
