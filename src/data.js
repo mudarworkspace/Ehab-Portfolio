@@ -1,7 +1,7 @@
 export const projects = [
     {
         title: "ENVIRONMENTAL AND PRODUCTION COMPLEX",
-        cover: "/images/covers/CULTURAL CENTER.jpg",
+        cover: "/images/covers/ENVIRONMENTAL.jpg",
         desc: "...",
         // demo: "/images/Ask Freelancer/VideoEditor_20220817_095747.mp4",
         gallery: ["/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/01.jpg", "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/02.jpg",
@@ -15,7 +15,7 @@ export const projects = [
         requirements: ["Chatting ", "Personal account management", "Search for a service or project",]
     }, {
         title: "EXTIRIOR DESIGN",
-        cover: "/images/covers/CULTURAL CENTER.jpg",
+        cover: "/images/covers/EXTIRIOR DESIGN.jpg",
         desc: "...",
         // demo: "/images/Ask Freelancer/VideoEditor_20220817_095747.mp4",
         gallery: ["/images/EXTIRIOR DESIGN/01.jpg", "/images/EXTIRIOR DESIGN/02.jpg", "/images/EXTIRIOR DESIGN/03.jpg"
@@ -27,7 +27,7 @@ export const projects = [
         requirements: ["Chatting ", "Personal account management", "Search for a service or project",]
     }, {
         title: "INTERIOR DESIGN",
-        cover: "/images/covers/CULTURAL CENTER.jpg",
+        cover: "/images/covers/INTERIOR.jpg",
         desc: "...",
         // demo: "/images/Ask Freelancer/VideoEditor_20220817_095747.mp4",
         gallery: ["/images/INTERIOR DESIGN/01.jpg", "/images/INTERIOR DESIGN/02.jpg", "/images/INTERIOR DESIGN/03.jpg"
@@ -41,7 +41,7 @@ export const projects = [
         requirements: ["Chatting ", "Personal account management", "Search for a service or project",]
     }, {
         title: "URBAN PLANING",
-        cover: "/images/covers/CULTURAL CENTER.jpg",
+        cover: "/images/covers/URBAN PLANING.jpg",
         desc: "...",
         // demo: "/images/Ask Freelancer/VideoEditor_20220817_095747.mp4",
         gallery: ["/images/URBAN PLANING/01.jpg", "/images/URBAN PLANING/02.jpg", "/images/URBAN PLANING/03.jpg"
@@ -75,10 +75,10 @@ export const shopDrawing =
         "Flooring tiles plan",
         "Section's plan",
         "Furniture details"],
-    cover: "/images/covers/CULTURAL CENTER.jpg",
+    cover: "/images/covers/SHOP DRAWING.jpg",
     projectCards: [
         {
-            cardTitle: "MR.AHMED OBAID", cardCover: "/images/covers/CULTURAL CENTER.jpg", projects: [
+            cardTitle: "MR.AHMED OBAID", cardCover: "/images/covers/MR.AHMED OBAID.jpg", projects: [
                 {
                     title: "FIRST FLOOR", subProjects: [
                         {
@@ -208,7 +208,7 @@ export const shopDrawing =
         },
 
         {
-            cardTitle: "MR.JASIM RIDA MOHAMMED", cardCover: "/images/covers/CULTURAL CENTER.jpg", projects: [
+            cardTitle: "MR.JASIM RIDA MOHAMMED", cardCover: "/images/covers/MR.JASIM RIDA MOHAMMED.jpg", projects: [
                 {
                     title: "Men Majls", subProjects: [
                         {
@@ -231,7 +231,7 @@ export const shopDrawing =
         },
 
         {
-            cardTitle: "MR.SALEH AL ZAROONI", cardCover: "/images/covers/CULTURAL CENTER.jpg", projects: [
+            cardTitle: "MR.SALEH AL ZAROONI", cardCover: "/images/covers/MR.SALEH AL ZAROONI.png", projects: [
                 {
                     title: "Men Majls", subProjects: [
                         {
