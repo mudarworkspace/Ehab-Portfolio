@@ -35,10 +35,14 @@ const Project = () => {
   return isNumber(projectId) ? (
     <div className="project">
       <ProjectTitle title={data?.title} />
-      <ProjectDescription desc={data?.desc} />
+      {data?.desc && <ProjectDescription desc={data?.desc} />}
       <div className="sections">
-        <ProjectTechnologies technologies={data?.technologies} />
-        <ProjectRequirements requirements={data?.requirements} />
+        {data?.technologies && (
+          <ProjectTechnologies technologies={data?.technologies} />
+        )}
+        {data?.requirements && (
+          <ProjectRequirements requirements={data?.requirements} />
+        )}
       </div>
       <ProjectGallery images={data?.gallery} />
       {data?.demo && <ProjectDemo video={data?.demo} />}

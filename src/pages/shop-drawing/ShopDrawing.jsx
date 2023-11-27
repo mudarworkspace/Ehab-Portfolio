@@ -15,10 +15,14 @@ const ShopDrawing = () => {
     <div className="shop-drawing">
       <div className="project">
         <ProjectTitle title={shopDrawing?.mainTitle} />
-        <ProjectDescription desc={shopDrawing?.desc} />
+        {shopDrawing?.desc && <ProjectDescription desc={shopDrawing?.desc} />}
         <div className="sections">
-          <ProjectTechnologies technologies={shopDrawing?.technologies} />
-          <ProjectRequirements requirements={shopDrawing?.requirements} />
+          {shopDrawing?.technologies && (
+            <ProjectTechnologies technologies={shopDrawing?.technologies} />
+          )}
+          {shopDrawing?.requirements && (
+            <ProjectRequirements requirements={shopDrawing?.requirements} />
+          )}
         </div>
         <div className="shop-drawing-card">
           {shopDrawing.projectCards.map((item, index) => {

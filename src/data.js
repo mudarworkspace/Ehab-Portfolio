@@ -2,7 +2,7 @@ export const projects = [
     {
         title: "ENVIRONMENTAL AND PRODUCTION COMPLEX",
         cover: "/images/covers/ENVIRONMENTAL.jpg",
-        desc: "...",
+        desc: "The project aims to establish an environmentally sustainable production complex by harnessing methane gas from cow dung, converting it into renewable energy for milk pasteurization and dairy export processes. It prioritizes reducing environmental impact and improving operational efficiency in the dairy industry. Through innovative methane extraction and utilization technologies, the project seeks to revolutionize traditional agricultural waste management and achieve self-sufficiency in energy consumption, lessening reliance on non-renewable resources.",
         // demo: "/images/Ask Freelancer/VideoEditor_20220817_095747.mp4",
         gallery: ["/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/01.jpg", "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/02.jpg",
             "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/03.jpg", "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/04.jpg", "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/05.jpg",
@@ -10,25 +10,26 @@ export const projects = [
             "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/09.jpg", "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/10.jpg", "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/11.jpg",
             "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/12.jpg", "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/13.jpg"
         ],
-        technologies: ["React JS",
-            "Prime React UI library",],
-        requirements: ["Chatting ", "Personal account management", "Search for a service or project",]
+        requirements: [
+            "Collection and treatment of cow dung to extract methane gas.",
+            "Implementation of state-of-the-art methane conversion technology.",
+            "Integration of methane-based energy systems for milk pasteurization.",
+            "Design and construction of export facilities for dairy products.",
+            "Environmental sustainability measures for waste management and energy efficiency."
+        ],
+        technologies: ["Revit ", "Lumion", "Photoshop", "Premiere"]
     }, {
         title: "EXTIRIOR DESIGN",
         cover: "/images/covers/EXTIRIOR DESIGN.jpg",
-        desc: "...",
+        desc: "",
         // demo: "/images/Ask Freelancer/VideoEditor_20220817_095747.mp4",
         gallery: ["/images/EXTIRIOR DESIGN/01.jpg", "/images/EXTIRIOR DESIGN/02.jpg", "/images/EXTIRIOR DESIGN/03.jpg"
             , "/images/EXTIRIOR DESIGN/04.jpg", "/images/EXTIRIOR DESIGN/05.jpg", "/images/EXTIRIOR DESIGN/06.jpg"
             , "/images/EXTIRIOR DESIGN/07.jpg", "/images/EXTIRIOR DESIGN/08.jpg",
         ],
-        technologies: ["React JS",
-            "Prime React UI library",],
-        requirements: ["Chatting ", "Personal account management", "Search for a service or project",]
     }, {
         title: "INTERIOR DESIGN",
         cover: "/images/covers/INTERIOR.jpg",
-        desc: "...",
         // demo: "/images/Ask Freelancer/VideoEditor_20220817_095747.mp4",
         gallery: ["/images/INTERIOR DESIGN/01.jpg", "/images/INTERIOR DESIGN/02.jpg", "/images/INTERIOR DESIGN/03.jpg"
             , "/images/INTERIOR DESIGN/04.jpg", "/images/INTERIOR DESIGN/05.jpg", "/images/INTERIOR DESIGN/06.jpg"
@@ -36,13 +37,10 @@ export const projects = [
             "/images/INTERIOR DESIGN/10.jpg", "/images/INTERIOR DESIGN/11.jpg", "/images/INTERIOR DESIGN/12.jpg",
             "/images/INTERIOR DESIGN/13.jpg", "/images/INTERIOR DESIGN/14.jpg", "/images/INTERIOR DESIGN/15.jpg",
         ],
-        technologies: ["React JS",
-            "Prime React UI library",],
-        requirements: ["Chatting ", "Personal account management", "Search for a service or project",]
     }, {
         title: "URBAN PLANING",
         cover: "/images/covers/URBAN PLANING.jpg",
-        desc: "...",
+        desc: "The project seeks to conduct a meticulous schematic study of a specific urban segment in Jaramana, Damascus, Syria. It aims to analyze and document architectural elements and their contextual significance, shedding light on the historical, cultural, and urban fabric of Jaramana. Emphasizing the preservation of architectural heritage, the study will uncover key characteristics, spatial arrangements, and the area's architectural significance through detailed examination and schematic representation.",
         // demo: "/images/Ask Freelancer/VideoEditor_20220817_095747.mp4",
         gallery: ["/images/URBAN PLANING/01.jpg", "/images/URBAN PLANING/02.jpg", "/images/URBAN PLANING/03.jpg"
             , "/images/URBAN PLANING/04.jpg", "/images/URBAN PLANING/05.jpg", "/images/URBAN PLANING/06.jpg"
@@ -54,16 +52,20 @@ export const projects = [
             "/images/URBAN PLANING/22.jpg", "/images/URBAN PLANING/23.jpg", "/images/URBAN PLANING/24.jpg",
             "/images/URBAN PLANING/25.jpg",
         ],
-        technologies: ["React JS",
-            "Prime React UI library",],
-        requirements: ["Chatting ", "Personal account management", "Search for a service or project",]
+        technologies: ["AutoCAD", "Revit ", "Photoshop"],
+        requirements: [
+            "Surveying and documenting architectural elements in a segment of Jaramana, considering historical context.",
+            "Creating detailed schematic representations to illustrate architectural features and spatial relationships.",
+            "Analyzing the historical and cultural significance within Jaramana's urban context.",
+            "Identifying challenges, threats, or preservation opportunities.",
+            "Providing recommendations for conservation, restoration, or adaptive reuse strategies based on findings."
+        ]
     },
 ]
 
 export const shopDrawing =
 {
     mainTitle: "SHOP DRAWING",
-    desc: "..",
     technologies: ["AutoCAD",],
     requirements: ["Architecture drawing list",
         "Existing - demolish layout plan",
