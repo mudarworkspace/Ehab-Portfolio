@@ -19,7 +19,7 @@ export const projects = [
         ],
         technologies: ["Revit ", "Lumion", "Photoshop", "Premiere"]
     }, {
-        title: "EXTIRIOR DESIGN sss",
+        title: "EXTIRIOR DESIGN",
         cover: "/images/covers/EXTIRIOR DESIGN.jpg",
         desc: "",
         // demo: "/images/Ask Freelancer/VideoEditor_20220817_095747.mp4",
