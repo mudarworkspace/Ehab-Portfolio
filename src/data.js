@@ -1,17 +1,257 @@
 export const projects = [
     {
-        title: "CULTURAL CENTER",
+        title: "ENVIRONMENTAL AND PRODUCTION COMPLEX",
         cover: "/images/covers/CULTURAL CENTER.jpg",
         desc: "...",
         // demo: "/images/Ask Freelancer/VideoEditor_20220817_095747.mp4",
-        gallery: ["/images/CULTURAL CENTER/27.jpg", "/images/CULTURAL CENTER/28.jpg", "/images/CULTURAL CENTER/28.jpg"
-            , "/images/CULTURAL CENTER/28.jpg", "/images/CULTURAL CENTER/29.jpg", "/images/CULTURAL CENTER/30.jpg"
-            , "/images/CULTURAL CENTER/31.jpg", "/images/CULTURAL CENTER/32.jpg", "/images/CULTURAL CENTER/33.jpg"
-            , "/images/CULTURAL CENTER/34.jpg", "/images/CULTURAL CENTER/35.jpg"
+        gallery: ["/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/01.jpg", "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/02.jpg",
+            "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/03.jpg", "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/04.jpg", "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/05.jpg",
+            "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/06.jpg", "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/07.jpg", "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/08.jpg",
+            "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/09.jpg", "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/10.jpg", "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/11.jpg",
+            "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/12.jpg", "/images/ENVIRONMENTAL AND PRODUCTION COMPLEX/13.jpg"
+        ],
+        technologies: ["React JS",
+            "Prime React UI library",],
+        requirements: ["Chatting ", "Personal account management", "Search for a service or project",]
+    }, {
+        title: "EXTIRIOR DESIGN",
+        cover: "/images/covers/CULTURAL CENTER.jpg",
+        desc: "...",
+        // demo: "/images/Ask Freelancer/VideoEditor_20220817_095747.mp4",
+        gallery: ["/images/EXTIRIOR DESIGN/01.jpg", "/images/EXTIRIOR DESIGN/02.jpg", "/images/EXTIRIOR DESIGN/03.jpg"
+            , "/images/EXTIRIOR DESIGN/04.jpg", "/images/EXTIRIOR DESIGN/05.jpg", "/images/EXTIRIOR DESIGN/06.jpg"
+            , "/images/EXTIRIOR DESIGN/07.jpg", "/images/EXTIRIOR DESIGN/08.jpg",
+        ],
+        technologies: ["React JS",
+            "Prime React UI library",],
+        requirements: ["Chatting ", "Personal account management", "Search for a service or project",]
+    }, {
+        title: "INTERIOR DESIGN",
+        cover: "/images/covers/CULTURAL CENTER.jpg",
+        desc: "...",
+        // demo: "/images/Ask Freelancer/VideoEditor_20220817_095747.mp4",
+        gallery: ["/images/INTERIOR DESIGN/01.jpg", "/images/INTERIOR DESIGN/02.jpg", "/images/INTERIOR DESIGN/03.jpg"
+            , "/images/INTERIOR DESIGN/04.jpg", "/images/INTERIOR DESIGN/05.jpg", "/images/INTERIOR DESIGN/06.jpg"
+            , "/images/INTERIOR DESIGN/07.jpg", "/images/INTERIOR DESIGN/08.jpg", "/images/INTERIOR DESIGN/09.jpg",
+            "/images/INTERIOR DESIGN/10.jpg", "/images/INTERIOR DESIGN/11.jpg", "/images/INTERIOR DESIGN/12.jpg",
+            "/images/INTERIOR DESIGN/13.jpg", "/images/INTERIOR DESIGN/14.jpg", "/images/INTERIOR DESIGN/15.jpg",
+        ],
+        technologies: ["React JS",
+            "Prime React UI library",],
+        requirements: ["Chatting ", "Personal account management", "Search for a service or project",]
+    }, {
+        title: "URBAN PLANING",
+        cover: "/images/covers/CULTURAL CENTER.jpg",
+        desc: "...",
+        // demo: "/images/Ask Freelancer/VideoEditor_20220817_095747.mp4",
+        gallery: ["/images/URBAN PLANING/01.jpg", "/images/URBAN PLANING/02.jpg", "/images/URBAN PLANING/03.jpg"
+            , "/images/URBAN PLANING/04.jpg", "/images/URBAN PLANING/05.jpg", "/images/URBAN PLANING/06.jpg"
+            , "/images/URBAN PLANING/07.jpg", "/images/URBAN PLANING/08.jpg", "/images/URBAN PLANING/09.jpg",
+            "/images/URBAN PLANING/10.jpg", "/images/URBAN PLANING/11.jpg", "/images/URBAN PLANING/12.jpg",
+            "/images/URBAN PLANING/13.jpg", "/images/URBAN PLANING/14.jpg", "/images/URBAN PLANING/15.jpg",
+            "/images/URBAN PLANING/16.jpg", "/images/URBAN PLANING/17.jpg", "/images/URBAN PLANING/18.jpg",
+            "/images/URBAN PLANING/19.jpg", "/images/URBAN PLANING/20.jpg", "/images/URBAN PLANING/21.jpg",
+            "/images/URBAN PLANING/22.jpg", "/images/URBAN PLANING/23.jpg", "/images/URBAN PLANING/24.jpg",
+            "/images/URBAN PLANING/25.jpg",
         ],
         technologies: ["React JS",
             "Prime React UI library",],
         requirements: ["Chatting ", "Personal account management", "Search for a service or project",]
     },
-
 ]
+
+export const shopDrawing =
+{
+    mainTitle: "SHOP DRAWING",
+    desc: "..",
+    technologies: ["AutoCAD",],
+    requirements: ["Architecture drawing list",
+        "Existing - demolish layout plan",
+        "Furniture layout plan",
+        "Power and data layout",
+        "Drainage plan",
+        "Ceiling and spot plan",
+        "Exhaust plan",
+        "Flooring tiles plan",
+        "Section's plan",
+        "Furniture details"],
+    cover: "/images/covers/CULTURAL CENTER.jpg",
+    projectCards: [
+        {
+            cardTitle: "MR.AHMED OBAID", cardCover: "/images/covers/CULTURAL CENTER.jpg", projects: [
+                {
+                    title: "FIRST FLOOR", subProjects: [
+                        {
+                            title: "BED ROOM (01)", images:
+                                [
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (01)/01.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (01)/02.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (01)/03.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (01)/04.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (01)/05.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (01)/06.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (01)/07.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (01)/08.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (01)/09.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (01)/10.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (01)/11.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (01)/12.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (01)/13.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (01)/14.jpg",
+                                ]
+                        },
+                        {
+                            title: "BED ROOM (02)", images:
+                                [
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (02)/01.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (02)/02.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (02)/03.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (02)/04.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (02)/05.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (02)/06.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (02)/07.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (02)/08.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (02)/09.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (02)/10.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (02)/11.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (02)/12.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (02)/13.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (02)/14.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (02)/15.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (02)/16.jpg",
+                                ]
+                        },
+                        {
+                            title: "BED ROOM (03)", images:
+                                [
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (03)/01.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (03)/02.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (03)/03.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (03)/04.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (03)/05.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (03)/06.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (03)/07.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (03)/08.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (03)/09.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (03)/10.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (03)/11.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (03)/12.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (03)/13.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (03)/14.jpg",
+                                ]
+                        },
+                        {
+                            title: "BED ROOM (04)", images:
+                                [
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (04)/01.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (04)/02.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (04)/03.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (04)/04.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (04)/05.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (04)/06.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (04)/07.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (04)/08.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (04)/09.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (04)/10.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (04)/11.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (04)/12.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (04)/13.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/BED ROOM (04)/14.jpg",
+                                ]
+                        },
+                        {
+                            title: "LIVING ROOM", images:
+                                [
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/LIVING ROOM/01.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/LIVING ROOM/02.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/LIVING ROOM/03.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/LIVING ROOM/04.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/LIVING ROOM/05.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/LIVING ROOM/06.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/LIVING ROOM/07.jpg",
+                                ]
+                        },
+                        {
+                            title: "MASTER BED ROOM", images:
+                                [
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/MASTER BED ROOM/01.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/MASTER BED ROOM/02.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/MASTER BED ROOM/03.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/MASTER BED ROOM/04.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/MASTER BED ROOM/05.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/MASTER BED ROOM/06.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/MASTER BED ROOM/07.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/MASTER BED ROOM/08.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/MASTER BED ROOM/09.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/MASTER BED ROOM/10.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/MASTER BED ROOM/11.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/MASTER BED ROOM/12.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/MASTER BED ROOM/13.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/MASTER BED ROOM/14.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/MASTER BED ROOM/15.jpg",
+                                    "/images/SHOP DRAWING/MR.AHMED OBAID/FIRST FLOOR/MASTER BED ROOM/16.jpg",
+                                ]
+                        }
+                    ]
+                },
+                {
+                    title: "GROUND FLOOR", subProjects: [
+                        { title: "DINNING ROOM", images: [""] },
+                        { title: "ENTRANCE", images: [""] },
+                        { title: "FAMILY AREA", images: [""] },
+                        { title: "GUEST BEDROOM", images: [""] },
+                        { title: "MEN MAJLIS", images: [""] },
+                        { title: "WOMEN MAJLIS", images: [""] }
+                    ]
+                }
+            ]
+        },
+
+        {
+            cardTitle: "MR.JASIM RIDA MOHAMMED", cardCover: "/images/covers/CULTURAL CENTER.jpg", projects: [
+                {
+                    title: "Men Majls", subProjects: [
+                        {
+                            title: "", images:
+                                [
+                                    "/images/SHOP DRAWING/MR.JASIM RIDA MOHAMMED/01.jpg",
+                                    "/images/SHOP DRAWING/MR.JASIM RIDA MOHAMMED/02.jpg",
+                                    "/images/SHOP DRAWING/MR.JASIM RIDA MOHAMMED/03.jpg",
+                                    "/images/SHOP DRAWING/MR.JASIM RIDA MOHAMMED/04.jpg",
+                                    "/images/SHOP DRAWING/MR.JASIM RIDA MOHAMMED/05.jpg",
+                                    "/images/SHOP DRAWING/MR.JASIM RIDA MOHAMMED/06.jpg",
+                                    "/images/SHOP DRAWING/MR.JASIM RIDA MOHAMMED/07.jpg",
+                                    "/images/SHOP DRAWING/MR.JASIM RIDA MOHAMMED/08.jpg",
+                                    "/images/SHOP DRAWING/MR.JASIM RIDA MOHAMMED/09.jpg",
+                                ]
+                        },
+                    ]
+                },
+            ]
+        },
+
+        {
+            cardTitle: "MR.SALEH AL ZAROONI", cardCover: "/images/covers/CULTURAL CENTER.jpg", projects: [
+                {
+                    title: "Men Majls", subProjects: [
+                        {
+                            title: "", images:
+                                [
+                                    "/images/SHOP DRAWING/MR.SALEH AL ZAROONI/01.jpg",
+                                    "/images/SHOP DRAWING/MR.SALEH AL ZAROONI/02.jpg",
+                                    "/images/SHOP DRAWING/MR.SALEH AL ZAROONI/03.jpg",
+                                    "/images/SHOP DRAWING/MR.SALEH AL ZAROONI/04.jpg",
+                                    "/images/SHOP DRAWING/MR.SALEH AL ZAROONI/05.jpg",
+                                    "/images/SHOP DRAWING/MR.SALEH AL ZAROONI/06.jpg",
+                                    "/images/SHOP DRAWING/MR.SALEH AL ZAROONI/07.jpg",
+                                    "/images/SHOP DRAWING/MR.SALEH AL ZAROONI/08.jpg",
+                                    "/images/SHOP DRAWING/MR.SALEH AL ZAROONI/09.jpg",
+                                ]
+                        },
+                    ]
+                },
+            ]
+        },
+    ],
+
+}

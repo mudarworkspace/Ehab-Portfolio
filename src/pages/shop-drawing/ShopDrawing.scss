@@ -1,0 +1,17 @@
+@import "../../assets/styles/vars.scss";
+.shop-drawing {
+  .shop-drawing-card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: $laptop-bp) {
+  .shop-drawing {
+    .shop-drawing-card {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}

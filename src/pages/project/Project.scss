@@ -52,6 +52,11 @@
       max-width: 100%;
       height: auto;
     }
+    .p-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
   &-demo {
     margin-top: 15px;

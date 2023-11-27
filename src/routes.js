@@ -6,6 +6,7 @@ import Services from './pages/services/Services';
 import Skills from './pages/skills/Skills';
 import Projects from './pages/projects/Projects';
 import Project from './pages/project/Project';
+import ShopDrawing from './pages/shop-drawing/ShopDrawing';
 
 const AppRoutes = () => {
     return (
@@ -17,6 +18,7 @@ const AppRoutes = () => {
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
             <Route path='/projects/:projectId' element={<Project />} />
+            <Route path='/shop-drawing' element={<ShopDrawing />} />
         </Routes>
     );
 }

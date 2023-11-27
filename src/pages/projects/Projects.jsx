@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.scss";
-import { projects } from "../../data";
+import { projects, shopDrawing } from "../../data";
 import { Link } from "react-router-dom";
 import ProjectCard from "../../components/project-card/ProjectCard";
 
@@ -19,6 +19,9 @@ const Projects = () => {
             </Link>
           );
         })}
+        <Link to={"/shop-drawing"}>
+          <ProjectCard src={shopDrawing.cover} title={shopDrawing.mainTitle} />
+        </Link>
       </div>
     </div>
   );
