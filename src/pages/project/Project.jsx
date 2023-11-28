@@ -52,7 +52,6 @@ const Project = () => {
         return (
           <div key={index}>
             <ProjectTitle title={item?.title} />
-            {/* Looping through 'subProjects' array */}
             {subProjectsArray.map((subProject, subIndex) => (
               <div key={subIndex}>
                 {subProject?.images &&
