@@ -22,11 +22,8 @@ const Project = () => {
   console.log(typeof projectId);
 
   const isNumber = (url) => {
-    // Get the last segment of the pathname
-    const segments = url.split("/").filter(Boolean); // Split the URL by '/' and remove empty segments
+    const segments = url.split("/").filter(Boolean);
     const lastSegment = segments[segments.length - 1];
-
-    // Check if the last segment is a number
     return !isNaN(lastSegment);
   };
   const parts = projectId.split("_");
@@ -50,8 +47,7 @@ const Project = () => {
   ) : (
     <div className="project">
       {shopDrawing.projectCards[lastPart].projects.map((item, index) => {
-        // Accessing 'subProjects' array inside each 'item'
-        const subProjectsArray = item?.subProjects || []; // Handling cases where 'subProjects' might be undefined
+        const subProjectsArray = item?.subProjects || [];
 
         return (
           <div key={index}>
@@ -61,24 +57,12 @@ const Project = () => {
               <div key={subIndex}>
                 {subProject?.images &&
                   <ProjectGallery title={subProject?.title} images={subProject?.images} />
-                  // subProject?.images?.map((image, imageIndex) => (
-                  //   <img
-                  //     style={{ maxWidth: "200px" }}
-                  //     key={imageIndex}
-                  //     src={image}
-                  //     alt={`Image ${imageIndex}`}
-                  //   />
-                  // ))
                 }
               </div>
             ))}
           </div>
         );
       })}
-
-      {/* {shopDrawing.projectCards[lastPart].projects.map((item, index) => {
-        return <h1>{console.log(item)}</h1>;
-      })} */}
     </div>
   );
 };
