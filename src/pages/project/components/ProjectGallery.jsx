@@ -1,10 +1,10 @@
 import React from "react";
 import { Image } from "primereact/image";
 
-const ProjectGallery = ({ images }) => {
+const ProjectGallery = ({ images, title }) => {
   return (
     <div className="project-gallery">
-      <div className="title">Project Gallery</div>
+      <div className="title">{title ? title : "Project Gallery"}</div>
       <div className="images-container">
         {images?.map((item, index) => {
           return (

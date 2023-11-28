@@ -55,21 +55,21 @@ const Project = () => {
 
         return (
           <div key={index}>
-            <h1>{item?.title}</h1>
+            <ProjectTitle title={item?.title} />
             {/* Looping through 'subProjects' array */}
             {subProjectsArray.map((subProject, subIndex) => (
               <div key={subIndex}>
-                <h2>{subProject?.title}</h2>
-                {/* Accessing 'images' array within each 'subProject' */}
                 {subProject?.images &&
-                  subProject?.images?.map((image, imageIndex) => (
-                    <img
-                      style={{ maxWidth: "200px" }}
-                      key={imageIndex}
-                      src={image}
-                      alt={`Image ${imageIndex}`}
-                    />
-                  ))}
+                  <ProjectGallery title={subProject?.title} images={subProject?.images} />
+                  // subProject?.images?.map((image, imageIndex) => (
+                  //   <img
+                  //     style={{ maxWidth: "200px" }}
+                  //     key={imageIndex}
+                  //     src={image}
+                  //     alt={`Image ${imageIndex}`}
+                  //   />
+                  // ))
+                }
               </div>
             ))}
           </div>
