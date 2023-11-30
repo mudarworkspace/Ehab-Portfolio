@@ -80,7 +80,7 @@ export const shopDrawing =
     cover: "/images/covers/SHOP DRAWING.jpg",
     projectCards: [
         {
-            cardTitle: "MR.AHMED OBAID", cardCover: "/images/covers/MR.AHMED OBAID.jpg", projects: [
+            cardTitle: "01", cardCover: "/images/covers/MR.AHMED OBAID.jpg", projects: [
                 {
                     title: "FIRST FLOOR", subProjects: [
                         {
@@ -210,7 +210,7 @@ export const shopDrawing =
         },
 
         {
-            cardTitle: "MR.JASIM RIDA MOHAMMED", cardCover: "/images/covers/MR.JASIM RIDA MOHAMMED.jpg", projects: [
+            cardTitle: "02", cardCover: "/images/covers/MR.JASIM RIDA MOHAMMED.jpg", projects: [
                 {
                     title: "Men Majls", subProjects: [
                         {
@@ -233,7 +233,7 @@ export const shopDrawing =
         },
 
         {
-            cardTitle: "MR.SALEH AL ZAROONI", cardCover: "/images/covers/MR.SALEH AL ZAROONI.png", projects: [
+            cardTitle: "03", cardCover: "/images/covers/MR.SALEH AL ZAROONI.png", projects: [
                 {
                     title: "Men Majls", subProjects: [
                         {
