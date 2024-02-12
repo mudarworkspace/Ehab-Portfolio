@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="about">
       <div className="image animate__animated animate__slideInLeft">
-        <img src={"/images/home-image.png"} alt="ehab-about" />
+        <img src={"/images/home-image.png"} alt="ehab-about" loading="eager"/>
       </div>
       <div className="information animate__animated animate__slideInRight">
         <div className="title">
@@ -29,7 +29,7 @@ const About = () => {
           </li>
           <li>
             <span className="left">Address:</span>
-            <span className="right">Syria, Damascus</span>
+            <span className="right">Abu Dhabi, United Arab Emirates</span>
           </li>
           <li>
             <span className="left">Email:</span>
@@ -37,7 +37,7 @@ const About = () => {
           </li>
           <li>
             <span className="left">Phone:</span>
-            <span className="right">+963 991 001 542 / +963 991 479 281</span>
+            <span className="right">+971 54 241 2649</span>
           </li>
           <li>
             <span className="left">Study:</span>

@@ -1,6 +1,8 @@
 @import "../../assets/styles/vars.scss";
+
 .download-cv {
   margin-top: 20px;
+
   button {
     line-height: 2em;
     font-size: 20px;
@@ -12,9 +14,19 @@
     cursor: pointer;
     padding: 10px 20px;
     transition: 0.3s ease;
+
     &:hover {
       background-color: darken($color: $yellow-color, $amount: 10);
       transition: 0.3s ease;
+    }
+  }
+
+  .disabled {
+    background-color: gray;
+
+    &:hover {
+      background-color: gray;
+      cursor: not-allowed;
     }
   }
 }

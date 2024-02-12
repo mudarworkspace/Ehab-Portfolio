@@ -23,7 +23,7 @@ const Home = () => {
         <CVButtom />
       </div>
       <div className="image animate__animated animate__slideInRight">
-        <img src="/images/about-image.png" alt="ehab-home"></img>
+        <img src="/images/about-image.png" alt="ehab-home" loading="eager"></img>
       </div>
     </div>
   );
