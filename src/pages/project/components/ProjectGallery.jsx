@@ -29,7 +29,7 @@ const ProjectGallery = ({ images, title }) => {
                 src={item}
                 key={index}
                 alt={`ehab-galleria-${index}`}
-                loading="lazy"
+                loading="eager"
                 preview
                 downloadable
                 children={document.querySelector(".project-gallery")}
